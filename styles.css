@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(75, 75, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+     background-image: url(https://st.depositphotos.com/1339671/1434/i/600/depositphotos_14343309-stock-photo-blue-sky.jpg);
+     background-repeat: no-repeat;
+     width: 400px;
+     height: 250px;
+     margin-top: 50px;
+     color: white;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     border-radius: 5px;
+}
+.first{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.weather{
+    font-size: 18px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.time{
+    font-size: 12px;
+    position: relative;
+    top:-10px;
+}
+.second{
+    display: flex;
+    margin-left: 20px;
+    gap:10px
+}
+.sun{
+    width: 40px;
+    height: 40px;
+}
+.temperature{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 0px;
+    padding-top: 0px;
+    position: relative;
+    top: -10px
+}
+.celsius{
+    position: relative;
+    top:-10px;
+}
+.image{
+    width: 16px;
+    color: white;
+}
+.sunny{
+    margin-left:15px;
+    position: relative;
+    margin-top:10px;
+    padding-top: 0px;
+}
+h3{
+    display: inline;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: relative;
+    top:-5px
+}
+.feels{
+    font-size: 10px;
+    position: relative;
+    top:-10px
+}
+.degree{
+    padding-left: 10px;
+    font-weight: 500;
+}
+.third{
+    margin-left: 12px;
+    position: relative;
+    top:-15px;
+}
+.expect{
+    font-size: 13px;
+    font-weight: 400;
+}
+.fourth{
+    margin-left: 15px;
+    position: relative;
+    top: -10px;
+    
+}
+.prop{
+    display: inline;
+    font-size: 10px;
+   padding-right: 15px;
+   color: rgba(255, 255, 255, 0.545);
+}
+.about{
+    width: 8px;
+    position: relative;
+    left: -17px;
+}
+.values{
+    display: inline;
+    font-size: 10px;
+   padding-right: 40px;
+   position: relative;
+}
